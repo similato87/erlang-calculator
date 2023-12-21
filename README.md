@@ -20,6 +20,10 @@ Where:
 - \( A \) is the offered traffic in Erlangs.
 - \( N \) is the number of servers.
 
+#### Result
+When the traffic load is 5 Erlangs and there is 2 servers:
+![Erlang B](doc/b_traffic_5_server_2.png)
+
 ### Erlang C Formula
 Erlang C formula (Delay Probability, \( C \)):
 
@@ -32,7 +36,13 @@ Where:
 - \( A \) is the offered traffic in Erlangs.
 - \( N \) is the number of servers.
 
-## Usage
-Run `erlang_calculator.py` from the `src` directory and follow the on-screen prompts.
+#### Result
+When the traffic load is 5 Erlangs and there is 2 servers:
+![Erlang C](doc/c_traffic_5_server_2.png)
 
+## Installation
+Ensure you have Python and Matplotlib installed. Install Matplotlib using pip:
 
+```bash
+pip install matplotlib
+```
